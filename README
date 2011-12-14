@@ -7,3 +7,6 @@ This project contains some functions to perform simple conversions
             (__)\       )\/\
                 ||----w |
                 ||     ||
+
+Your Assignment is to fulfill the test cases in the file tests.py by
+implementing the functions in converters/__init__.py
