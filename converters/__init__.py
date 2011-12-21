@@ -4,7 +4,8 @@ def days_to_seconds(days):
 
 def celsius_to_fahrenheit(degrees):
     ''' Converts degrees Celsius to degrees Fahrenheit '''
-    return 0
+    fahrenheit = degrees *9.0 /5.0 +32
+    return fahrenheit
 
 def fahrenheit_to_celsius(degrees):
     ''' Converts degrees Fahrenheit to degrees Celsius '''
