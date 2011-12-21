@@ -12,9 +12,9 @@ def fahrenheit_to_celsius(degrees):
     return 0
 
 def surface_of_circle(radius):
-    ''' Calculates the surface of a circle. Hint: Use pow(x, exponent) for power '''
+    ''' Calculates the surface of a circle. Hint: Use pow(radius, exponent) for power '''
     from math import pi
-    return 0
+    return radius * radius * pi
 
 def cube_volume(length, width, height):
     ''' Returns the volume of the cube '''
