@@ -1,10 +1,11 @@
 def days_to_seconds(days):
     ''' This function converts days to seconds '''
-    return 0
+    return days*24*60*60
 
 def celsius_to_fahrenheit(degrees):
     ''' Converts degrees Celsius to degrees Fahrenheit '''
-    return 0
+    fahrenheit = degrees *9.0 /5.0 +32
+    return fahrenheit
 
 def fahrenheit_to_celsius(degrees):
     ''' Converts degrees Fahrenheit to degrees Celsius '''
@@ -41,7 +42,9 @@ def mwst(amount):
 
 def joules_to_calories(joules):
     ''' Converts joules to calories '''
-    return 0
+    j = 0.239005736
+    calories = joules * j 
+    return calories
 
 def kmh_to_mph(kmh):
     return 0
