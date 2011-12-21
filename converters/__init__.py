@@ -42,7 +42,9 @@ def mwst(amount):
 
 def joules_to_calories(joules):
     ''' Converts joules to calories '''
-    return 0
+    j = 0.239005736
+    calories = joules * j 
+    return calories
 
 def kmh_to_mph(kmh):
     return 0
