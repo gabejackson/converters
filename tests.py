@@ -26,7 +26,7 @@ class TestConverters(unittest.TestCase):
         self.assertEqual(120, cube_volume(4, 5, 6))
     
     def test_usd_to_chf(self):
-        self.assertAlmostEqual(0.917, usd_to_chf(1), places=1)
+        self.assertAlmostEqual(0.928, usd_to_chf(1), places=1)
     
     def test_lessons_to_minutes(self):
         self.assertEqual(135, lessons_to_minutes(3))
