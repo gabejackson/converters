@@ -17,7 +17,8 @@ def surface_of_circle(radius):
 
 def cube_volume(length, width, height):
     ''' Returns the volume of the cube '''
-    return 0
+    x= length*width*height
+    return  x
 
 def usd_to_chf(usd):
     ''' Fetches the current exchange rate and converts to swiss francs '''
