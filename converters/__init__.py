@@ -1,20 +1,19 @@
 def days_to_seconds(days):
     ''' This function converts days to seconds '''
-    return days*24*60*60
+    return 0
 
 def celsius_to_fahrenheit(degrees):
     ''' Converts degrees Celsius to degrees Fahrenheit '''
-    fahrenheit = degrees *9.0 /5.0 +32
-    return fahrenheit
+    return 0
 
 def fahrenheit_to_celsius(degrees):
-    celsius= (degrees -32)*5/9
-    return celsius
+    ''' Converts degrees Fahrenheit to degrees Celsius '''
+    return 0
 
 def surface_of_circle(radius):
-    ''' Calculates the surface of a circle. Hint: Use pow(radius, exponent) for power '''
+    ''' Calculates the surface of a circle. Hint: Use pow(x, exponent) for power '''
     from math import pi
-    return radius * radius * pi
+    return 0
 
 def cube_volume(length, width, height):
     ''' Returns the volume of the cube '''
@@ -43,9 +42,7 @@ def mwst(amount):
 
 def joules_to_calories(joules):
     ''' Converts joules to calories '''
-    j = 0.239005736
-    calories = joules * j 
-    return calories
+    return 0
 
 def kmh_to_mph(kmh):
     return 0
