@@ -7,8 +7,8 @@ def celsius_to_fahrenheit(degrees):
     return 0
 
 def fahrenheit_to_celsius(degrees):
-    ''' Converts degrees Fahrenheit to degrees Celsius '''
-    return 0
+    celsius= (degrees -32)*5/9
+    return celsius
 
 def surface_of_circle(radius):
     ''' Calculates the surface of a circle. Hint: Use pow(x, exponent) for power '''
